@@ -1,0 +1,97 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header{
+    background-image: url(../images/books.jpg);
+    padding: 1%;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(2, 2, 2, 0.5);
+    .anton-sc-regular {
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: blue;
+      }
+}
+button{
+    background-color:rgb(116, 201, 116);
+    size: 400px;
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    color: (0, 124, 0);
+}
+
+.content-wrapper{
+    margin: 0% auto;
+    padding: 30px;
+}
+
+.home{
+    background-color: url(../images/paperandmug.jpg);
+    background-size: cover;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+p{
+    display: flex;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+section{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.work-img{
+    width: 40%;
+    height: 50%;
+}
+.container-1{
+    background-color: bisque;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    box-sizing: border-box; 
+}
+
+.container-2{
+    background-color: bisque;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.bottom{
+    bottom: 0;
+    position: absolute;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    padding: 1%;
+    ul{
+        text-align: end;
+        padding-right: 2%;
+    }
+}
